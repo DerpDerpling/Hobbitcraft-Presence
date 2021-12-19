@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "id": "mineclubexpanded",
+  "id": "Hobbitcraft Presence",
   "version": "${version}",
 
-  "name": "Mineclub Expanded",
-  "description": "This is a fabric mod that enhances mineclub",
+  "name": "Hobbitcraft Presence",
+  "description": "Provides Rich Presence when joining Hobbitcraft",
   "authors": [
-    "Blobanium"
+    "Blobanium(Original Source), DerpDerpling"
   ],
   "contact": {
-    "issues": "https://github.com/Blobanium/mineclub-expanded/issues",
-    "sources": "https://github.com/Blobanium/mineclub-expanded"
+    "issues": "https://hobbitcraft.cc/invite",
+    "sources": "https://github.com/DerpDerpling/Hobbitcraft-Presence"
   },
 
   "license": "MIT",
-  "icon": "assets/mineclubexpanded/icon.png",
+  "icon": "assets/mineclubexpanded/hc6.png",
 
   "environment": "client",
   "entrypoints": {
@@ -48,9 +48,7 @@
   "custom": {
     "modmenu":{
       "links": {
-        "Discord (Mineclub Beehive)": "https://discord.gg/uQhX9mNAxd",
-        "Discord (Development Server)": "https://discord.gg/KfNqUs2uq5",
-        "Donate": "https://gist.github.com/Blobanium/190179ae9ee3d00f42aad2a86c37625c"
+        "Hobbitcraft": "https://www.hobbitcraft.cc/",
       }
     }
   }
